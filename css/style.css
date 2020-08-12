@@ -56,6 +56,26 @@ p {
    color: #ffcdb2;
 }
 
+.btn-light {
+   background: #f4f4f4;
+   color: #333; 
+}
+
+.bg-dark {
+   background: #6d6875;
+   color: #fff; 
+}
+
+.bg-light {
+   background: #f4f4f4;
+   color: #333; 
+}
+
+.bg-primary {
+   background: #e5989b;
+   color: #ffcdb2; 
+}
+
 /* Navbar */
 #navbar {
    background: #b5838d;
@@ -113,4 +133,29 @@ p {
 .showcase-content p {
    padding-bottom: 20px;
    line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+   height: 400px;
+}
+
+.info-img {
+   float: left; 
+   width: 50%; 
+   background: url('../img/photo-1.jpg') no-repeat;
+   min-height: 100%; 
+}
+
+.info-content {
+   float: right; 
+   width: 50%;
+   height: 100%;
+   text-align: center;
+   padding: 50px 30px;
+   overflow: hidden;
+}
+
+.info-content p {
+   padding-bottom: 30px;
 }
